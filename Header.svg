@@ -1,0 +1,74 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&amp;display=swap');
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0d0d0d" rx="8"/>
+  <!-- Scanline overlay -->
+  <rect width="800" height="420" fill="url(#scanlines)" rx="8" opacity="0.03"/>
+  <!-- Terminal bar -->
+  <rect width="800" height="36" fill="#1a1a1a" rx="8"/>
+  <rect y="28" width="800" height="8" fill="#1a1a1a"/>
+  <!-- Traffic lights -->
+  <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="18" r="6" fill="#28c840"/>
+  <!-- Tab label -->
+  <text x="400" y="23" fill="#4b5563" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">~/P0intMaN/README.md</text>
+
+  <!-- Big name -->
+  <text x="40" y="105" fill="#ffffff" font-family="JetBrains Mono, monospace" font-size="52" font-weight="800" letter-spacing="-2">P0int</text>
+  <text x="222" y="105" fill="#a78bfa" font-family="JetBrains Mono, monospace" font-size="52" font-weight="800" letter-spacing="-2">MaN</text>
+
+  <!-- Subtitle -->
+  <text x="40" y="132" fill="#6b7280" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="3">SOFTWARE ENGINEER · BANGALORE, INDIA</text>
+  <text x="40" y="154" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="12">🦇  building liftwork</text>
+
+  <!-- Prompt: whoami -->
+  <text x="40" y="192" fill="#a78bfa" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">~/$ </text>
+  <text x="81" y="192" fill="#f3f4f6" font-family="JetBrains Mono, monospace" font-size="13">whoami</text>
+
+  <text x="40" y="216" fill="#9ca3af" font-family="JetBrains Mono, monospace" font-size="12">→ Software engineer obsessed with dev tooling &amp; infrastructure</text>
+  <text x="40" y="234" fill="#9ca3af" font-family="JetBrains Mono, monospace" font-size="12">→ Building </text>
+  <text x="131" y="234" fill="#a78bfa" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">liftwork</text>
+  <text x="195" y="234" fill="#9ca3af" font-family="JetBrains Mono, monospace" font-size="12"> — plug-and-play K8s build/deploy platform</text>
+  <text x="40" y="252" fill="#9ca3af" font-family="JetBrains Mono, monospace" font-size="12">→ Making </text>
+  <text x="121" y="252" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">terminus</text>
+  <text x="192" y="252" fill="#9ca3af" font-family="JetBrains Mono, monospace" font-size="12"> — Bubble Tea vibes for Java terminals</text>
+  <text x="40" y="270" fill="#9ca3af" font-family="JetBrains Mono, monospace" font-size="12">→ MLH Fellow · </text>
+  <text x="159" y="270" fill="#fbbf24" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">forgr-tech</text>
+  <text x="234" y="270" fill="#9ca3af" font-family="JetBrains Mono, monospace" font-size="12"> contributor</text>
+
+  <!-- Prompt: echo -->
+  <text x="40" y="300" fill="#a78bfa" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">~/$ </text>
+  <text x="81" y="300" fill="#f3f4f6" font-family="JetBrains Mono, monospace" font-size="13">echo $STATUS</text>
+  <text x="40" y="320" fill="#6b7280" font-family="JetBrains Mono, monospace" font-size="12">open to interesting infra/devtools collabs</text>
+
+  <!-- Cursor blink simulation -->
+  <rect x="40" y="338" width="8" height="16" fill="#a78bfa" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0;0.9" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Badges row -->
+  <!-- devtools badge -->
+  <rect x="40" y="368" width="92" height="26" rx="2" fill="rgba(124,58,237,0.15)" stroke="#7c3aed" stroke-width="1"/>
+  <text x="86" y="386" fill="#a78bfa" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle" letter-spacing="1">✦ DEVTOOLS</text>
+
+  <!-- kubernetes badge -->
+  <rect x="142" y="368" width="110" height="26" rx="2" fill="rgba(5,150,105,0.15)" stroke="#059669" stroke-width="1"/>
+  <text x="197" y="386" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle" letter-spacing="1">☸ KUBERNETES</text>
+
+  <!-- java badge -->
+  <rect x="262" y="368" width="70" height="26" rx="2" fill="rgba(217,119,6,0.15)" stroke="#d97706" stroke-width="1"/>
+  <text x="297" y="386" fill="#fbbf24" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle" letter-spacing="1">☕ JAVA</text>
+
+  <!-- python badge -->
+  <rect x="342" y="368" width="82" height="26" rx="2" fill="rgba(53,114,165,0.15)" stroke="#3572a5" stroke-width="1"/>
+  <text x="383" y="386" fill="#60a5fa" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle" letter-spacing="1">🐍 PYTHON</text>
+
+  <!-- terminal ui badge -->
+  <rect x="434" y="368" width="100" height="26" rx="2" fill="rgba(31,41,55,0.8)" stroke="#374151" stroke-width="1"/>
+  <text x="484" y="386" fill="#9ca3af" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle" letter-spacing="1">▪ TERMINAL UI</text>
+</svg>
